@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF5ACD223979FF000373AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACD123979FF000373AED /* AppDelegate.m */; };
+		EEF5ACD523979FF000373AED /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACD423979FF000373AED /* SceneDelegate.m */; };
+		EEF5ACD823979FF000373AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACD723979FF000373AED /* ViewController.m */; };
+		EEF5ACDD23979FF100373AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF5ACDC23979FF100373AED /* Assets.xcassets */; };
+		EEF5ACE023979FF100373AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF5ACDE23979FF100373AED /* LaunchScreen.storyboard */; };
+		EEF5ACE323979FF100373AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACE223979FF100373AED /* main.m */; };
+		EEF5ACF02397A45000373AED /* QiLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACEA2397A45000373AED /* QiLoginViewController.m */; };
+		EEF5ACF12397A45000373AED /* QiModifyPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACEC2397A45000373AED /* QiModifyPasswordViewController.m */; };
+		EEF5ACF22397A45000373AED /* QiRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5ACEF2397A45000373AED /* QiRegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEF5ACCD23979FF000373AED /* QiPasswordAutoFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiPasswordAutoFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF5ACD023979FF000373AED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEF5ACD123979FF000373AED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEF5ACD323979FF000373AED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EEF5ACD423979FF000373AED /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EEF5ACD623979FF000373AED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEF5ACD723979FF000373AED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEF5ACDC23979FF100373AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEF5ACDF23979FF100373AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEF5ACE123979FF100373AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF5ACE223979FF100373AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF5ACE92397A06000373AED /* QiPasswordAutoFill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QiPasswordAutoFill.entitlements; sourceTree = "<group>"; };
+		EEF5ACEA2397A45000373AED /* QiLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiLoginViewController.m; sourceTree = "<group>"; };
+		EEF5ACEB2397A45000373AED /* QiModifyPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiModifyPasswordViewController.h; sourceTree = "<group>"; };
+		EEF5ACEC2397A45000373AED /* QiModifyPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiModifyPasswordViewController.m; sourceTree = "<group>"; };
+		EEF5ACED2397A45000373AED /* QiLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiLoginViewController.h; sourceTree = "<group>"; };
+		EEF5ACEE2397A45000373AED /* QiRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiRegisterViewController.h; sourceTree = "<group>"; };
+		EEF5ACEF2397A45000373AED /* QiRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiRegisterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF5ACCA23979FF000373AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF5ACC423979FF000373AED = {
+			isa = PBXGroup;
+			children = (
+				EEF5ACCF23979FF000373AED /* QiPasswordAutoFill */,
+				EEF5ACCE23979FF000373AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF5ACCE23979FF000373AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF5ACCD23979FF000373AED /* QiPasswordAutoFill.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF5ACCF23979FF000373AED /* QiPasswordAutoFill */ = {
+			isa = PBXGroup;
+			children = (
+				EEF5ACE92397A06000373AED /* QiPasswordAutoFill.entitlements */,
+				EEF5ACEE2397A45000373AED /* QiRegisterViewController.h */,
+				EEF5ACEF2397A45000373AED /* QiRegisterViewController.m */,
+				EEF5ACED2397A45000373AED /* QiLoginViewController.h */,
+				EEF5ACEA2397A45000373AED /* QiLoginViewController.m */,
+				EEF5ACEB2397A45000373AED /* QiModifyPasswordViewController.h */,
+				EEF5ACEC2397A45000373AED /* QiModifyPasswordViewController.m */,
+				EEF5ACD023979FF000373AED /* AppDelegate.h */,
+				EEF5ACD123979FF000373AED /* AppDelegate.m */,
+				EEF5ACD323979FF000373AED /* SceneDelegate.h */,
+				EEF5ACD423979FF000373AED /* SceneDelegate.m */,
+				EEF5ACD623979FF000373AED /* ViewController.h */,
+				EEF5ACD723979FF000373AED /* ViewController.m */,
+				EEF5ACDC23979FF100373AED /* Assets.xcassets */,
+				EEF5ACDE23979FF100373AED /* LaunchScreen.storyboard */,
+				EEF5ACE123979FF100373AED /* Info.plist */,
+				EEF5ACE223979FF100373AED /* main.m */,
+			);
+			path = QiPasswordAutoFill;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF5ACCC23979FF000373AED /* QiPasswordAutoFill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF5ACE623979FF100373AED /* Build configuration list for PBXNativeTarget "QiPasswordAutoFill" */;
+			buildPhases = (
+				EEF5ACC923979FF000373AED /* Sources */,
+				EEF5ACCA23979FF000373AED /* Frameworks */,
+				EEF5ACCB23979FF000373AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiPasswordAutoFill;
+			productName = QiPasswordAutoFill;
+			productReference = EEF5ACCD23979FF000373AED /* QiPasswordAutoFill.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF5ACC523979FF000373AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = WYW;
+				TargetAttributes = {
+					EEF5ACCC23979FF000373AED = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EEF5ACC823979FF000373AED /* Build configuration list for PBXProject "QiPasswordAutoFill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF5ACC423979FF000373AED;
+			productRefGroup = EEF5ACCE23979FF000373AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF5ACCC23979FF000373AED /* QiPasswordAutoFill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF5ACCB23979FF000373AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF5ACE023979FF100373AED /* LaunchScreen.storyboard in Resources */,
+				EEF5ACDD23979FF100373AED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF5ACC923979FF000373AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF5ACD823979FF000373AED /* ViewController.m in Sources */,
+				EEF5ACF22397A45000373AED /* QiRegisterViewController.m in Sources */,
+				EEF5ACF02397A45000373AED /* QiLoginViewController.m in Sources */,
+				EEF5ACF12397A45000373AED /* QiModifyPasswordViewController.m in Sources */,
+				EEF5ACD223979FF000373AED /* AppDelegate.m in Sources */,
+				EEF5ACE323979FF100373AED /* main.m in Sources */,
+				EEF5ACD523979FF000373AED /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEF5ACDE23979FF100373AED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF5ACDF23979FF100373AED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF5ACE423979FF100373AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEF5ACE523979FF100373AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF5ACE723979FF100373AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QiPasswordAutoFill/QiPasswordAutoFill.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QiPasswordAutoFill/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.wyw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF5ACE823979FF100373AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QiPasswordAutoFill/QiPasswordAutoFill.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QiPasswordAutoFill/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.ios.wyw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF5ACC823979FF000373AED /* Build configuration list for PBXProject "QiPasswordAutoFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF5ACE423979FF100373AED /* Debug */,
+				EEF5ACE523979FF100373AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF5ACE623979FF100373AED /* Build configuration list for PBXNativeTarget "QiPasswordAutoFill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF5ACE723979FF100373AED /* Debug */,
+				EEF5ACE823979FF100373AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF5ACC523979FF000373AED /* Project object */;
+}
